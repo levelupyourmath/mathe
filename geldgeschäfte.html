@@ -1,0 +1,135 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Geldgeschäfte</title>
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Start Navigation-->
+        <div class="div_nav_rahmen">
+            <a href="index.html"><img src="bilder/logo.png" width="130" height="100" /></a>
+            <div>
+                <div class="div_nav_oben">
+                    <nav class="nav_oben">
+                        <ul>
+                            <li><a href="1x1.html">1x1</a></li>
+                            <li><a href="quadratzahlen.html">Quadratzahlen</a></li>
+                            <li><a href="masseinheiten.html">Masseinheiten</a></li>
+                            <li><a href="brueche.html">Bruchrechnen</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav_oben">
+                        <ul>
+                            <li><a href="video.html">Video</a></li>
+                            <li><a href="lernen.html">Übungen</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="nav_unten">
+                    <ul>
+                        <li><a href="zehnerpotenzen.html">10 <sup>10</sup></a></li>
+                        <li><a href="kreisberechnungen.html">Kreisberechnung</a></li>
+                        <li><a href="geldgeschäfte.html">Geldgeschäfte</a></li>
+                        <li><a href="binomischeformeln.html">Binomische Formeln</a></li>
+                        <li><a href="pythagoras.html">Satz des Pythagoras</a></li>
+                        <li><a href="dreieckevierecke.html">Dreiecke Vierecke</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Start Seite-->
+
+        <h1>Geldgeschäfte</h1>
+
+        <h2>Wichtigste Regeln</h2>
+        <p>In der Bankrechnung (Zinsrechnung) gelten folgende Zeitregeln:</p>
+        <ul>
+            <li>Das Zinsjahr hat <strong>360 Tage</strong>.</li>
+            <li>Jeder Monat wird mit <strong>30 Tagen</strong> berechnet (auch der Februar).</li>
+        </ul>
+
+        <hr>
+
+        <h2>Begriffe und Abkürzungen</h2>
+        <p>
+            <strong>Z</strong> = Zinsen | <strong>K</strong> = Kapital | <strong>p</strong> = Zinssatz (%) | <strong>t</strong> = Zeit (Tage)
+        </p>
+
+        <hr>
+
+        <h2>Formelsammlung</h2>
+        <p>Allgemeine Zinsformel (für 1 Jahr):</p>
+        <p>$Z = \frac{K \cdot p}{100}$ | $p = \frac{Z \cdot 100}{K}$ | $K = \frac{Z \cdot 100}{p}$</p>
+
+        <p>Zinsformel mit Zeitfaktor ($t$ in Tagen):</p>
+        <p>$Z = \frac{K \cdot p \cdot t}{100 \cdot 360}$</p>
+        <p>$K = \frac{Z \cdot 100 \cdot 360}{p \cdot t}$ | $t = \frac{Z \cdot 100 \cdot 360}{K \cdot p}$</p>
+
+        <hr>
+
+        <h2>Beispiele zur Zinsrechnung</h2>
+
+        <h3>Beispiel 1: Zinsen berechnen (1 Jahr)</h3>
+        <p>Frage: Wie viel Zinsen erhält man bei einem Kapital von Fr. 4'000.– und einem Zinssatz von 3% in einem Jahr?</p>
+        <p>Gegeben: $K = 4'000 \text{ Fr.}, p = 3\%$</p>
+        <p>Rechnung: $Z = \frac{4'000 \cdot 3}{100} = 120 \text{ Fr.}$</p>
+        <p>Antwort: In einem Jahr erhält man 120 Fr. Zinsen.</p>
+
+        <h3>Beispiel 2: Zinssatz berechnen</h3>
+        <p>Frage: Kapital Fr. 2'000.–. Wie hoch ist der Zinssatz bei Fr. 80.– Zinsen?</p>
+        <p>Rechnung: $p = \frac{80 \cdot 100}{2'000} = 4\%$</p>
+        <p>Antwort: Der Zinssatz beträgt 4%.</p>
+
+        <h3>Beispiel 3: Kapital berechnen</h3>
+        <p>Frage: Zins = Fr. 120.–, Zinssatz = 6%. Wie groß ist das Kapital?</p>
+        <p>Rechnung: $K = \frac{120 \cdot 100}{6} = 2'000 \text{ Fr.}$</p>
+        <p>Antwort: Das Kapital beträgt 2'000 Fr.</p>
+
+        <hr>
+
+        <h2>Zinsformel mit Zeitfaktor (Tage)</h2>
+
+        <h3>Beispiel 4: Zinsen für einen Zeitraum</h3>
+        <p>Frage: Einzahlung Fr. 1'500.– am 15. April bei 1,5%. Wie viel Geld steht Ende Jahr zur Verfügung?</p>
+        <p>Zeit ($t$): 255 Tage (April: 15 Tage + Mai bis Dezember: $8 \cdot 30 = 240$ Tage. Total = 255 Tage)</p>
+        <p>Rechnung Zinsen: $Z = \frac{1'500 \cdot 1.5 \cdot 255}{100 \cdot 360} = 15.94 \text{ Fr.}$</p>
+        <p>Gesamtbetrag: $1'500 + 15.94 = 1'515.94 \text{ Fr.}$</p>
+        <p>Antwort: Ende Jahr stehen 1'515.94 Fr. zur Verfügung.</p>
+
+        <h3>Beispiel 5: Kapital berechnen (Tage)</h3>
+        <p>Frage: Zinssatz 3.25%, Zeit 200 Tage, Zinsen Fr. 487.50. Wie hoch ist das Kapital?</p>
+        <p>Rechnung: $K = \frac{487.50 \cdot 100 \cdot 360}{3.25 \cdot 200} = 27'000 \text{ Fr.}$</p>
+        <p>Antwort: Das Kapital beträgt 27'000 Fr.</p>
+
+        <h3>Beispiel 6: Zeit berechnen</h3>
+        <p>Frage: Kapital Fr. 48'000.–, 3% Zinssatz, Ertrag Fr. 600.–. Wie lange wurde gespart?</p>
+        <p>Rechnung: $t = \frac{600 \cdot 100 \cdot 360}{48'000 \cdot 3} = 150 \text{ Tage}$</p>
+        <p>Antwort: Es wurde 150 Tage lang gespart.</p>
+
+        <hr>
+
+        <h2>Video</h2>
+        <ul>
+            <li><a href="https://studyflix.de/mathematik/zinsrechnung-2849" target="_blank">Zinsrechnung</a></li>
+            <li><a href="https://studyflix.de/mathematik/zinsrechnung-aufgaben-2915" target="_blank">Zinsrechnung Aufgaben</a></li>
+            <li><a href="https://studyflix.de/mathematik/zinsformel-3087" target="_blank">Zinsformel</a></li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

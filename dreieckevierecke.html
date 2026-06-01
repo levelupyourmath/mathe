@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dreieck & Trapez</title>
+
+    <!-- MathJax für LaTeX -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Start Navigation-->
+        <div class="div_nav_rahmen">
+            <a href="index.html"><img src="bilder/logo.png" width="130" height="100" /></a>
+            <div>
+                <div class="div_nav_oben">
+                    <nav class="nav_oben">
+                        <ul>
+                            <li><a href="1x1.html">1x1</a></li>
+                            <li><a href="quadratzahlen.html">Quadratzahlen</a></li>
+                            <li><a href="masseinheiten.html">Masseinheiten</a></li>
+                            <li><a href="brueche.html">Bruchrechnen</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav_oben">
+                        <ul>
+                            <li><a href="video.html">Video</a></li>
+                            <li><a href="lernen.html">Übungen</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="nav_unten">
+                    <ul>
+                        <li><a href="zehnerpotenzen.html">10 <sup>10</sup></a></li>
+                        <li><a href="kreisberechnungen.html">Kreisberechnung</a></li>
+                        <li><a href="geldgeschäfte.html">Geldgeschäfte</a></li>
+                        <li><a href="binomischeformeln.html">Binomische Formeln</a></li>
+                        <li><a href="pythagoras.html">Satz des Pythagoras</a></li>
+                        <li><a href="dreieckevierecke.html">Dreiecke Vierecke</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Start Seite-->
+
+        <h1>Dreieck & Trapez</h1>
+
+        <h2>Mittelsenkrechte & Umkreis</h2>
+        <p>Die Mittelsenkrechte geht durch den Mittelpunkt einer Seite und steht senkrecht darauf.</p>
+        <p>Alle drei schneiden sich im <b>Umkreismittelpunkt (U)</b>.</p>
+        <img src="bilder/dreieckaussenkreis.png" alt="Dreieckaussenkreis">
+
+        <hr>
+
+        <h2>Winkelhalbierende & Inkreis</h2>
+        <p>Die Winkelhalbierende teilt einen Winkel in zwei gleich grosse Teile.</p>
+        <p>Alle drei schneiden sich im <b>Inkreismittelpunkt (I)</b>.</p>
+        <img src="bilder/dreieckinkries.png" alt="Dreieckinkries">
+
+        <hr>
+
+        <h2>Höhen im Dreieck</h2>
+        <p>Eine Höhe ist eine Senkrechte von einem Eckpunkt auf die gegenüberliegende Seite.</p>
+        <p>Schnittpunkt ist der <b>Höhenschnittpunkt (H)</b>.</p>
+
+        <ul>
+            <li>Spitzes Dreieck → H liegt innen</li>
+            <li>Rechtes Dreieck → H liegt beim rechten Winkel</li>
+            <li>Stumpfes Dreieck → H liegt ausserhalb</li>
+        </ul>
+        <img src="bilder/dreieckhoehen.png" alt="Dreieckhöhen">
+
+        <hr>
+
+        <h2>Seitenhalbierende & Schwerpunkt</h2>
+        <p>Eine Seitenhalbierende verbindet einen Eckpunkt mit der Mitte der Gegenseite.</p>
+        <p>Schnittpunkt ist der <b>Schwerpunkt (S)</b>.</p>
+        <img src="bilder/dreieckschwerpunkt.png" alt="Dreieckschwerpunkt">
+        <p>Verhältnis: $2:1$</p>
+
+        <hr>
+
+        <h2>Zusammenfassung</h2>
+        <ul>
+            <li>Mittelsenkrechte → U → Umkreis</li>
+            <li>Winkelhalbierende → I → Inkreis</li>
+            <li>Höhe → H → abhängig vom Dreieck</li>
+            <li>Seitenhalbierende → S → Schwerpunkt</li>
+        </ul>
+
+        <hr>
+
+        <h2>Trapez</h2>
+        <p>Ein Trapez ist ein Viereck mit mindestens einem Paar paralleler Seiten.</p>
+
+        <p><b>Bezeichnungen:</b></p>
+        <ul>
+            <li>$a, c$ → parallele Seiten</li>
+            <li>$h$ → Höhe</li>
+        </ul>
+
+        <p><b>Flächenformel:</b></p>
+        <p>$A = \frac{a + c}{2} \cdot h$</p>
+        <img src="bilder/dreieckviereck.png" alt="Trapez">
+
+        <hr>
+
+        <h2>Beispiel</h2>
+        <p>Gegeben: $a = 8$ cm, $c = 14$ cm, $h = 6$ cm</p>
+        <p>Rechnung: $A = \frac{8 + 14}{2} \cdot 6 = 66 \text{ cm}^2$</p>
+        <p><b>Antwort:</b> Die Fläche beträgt 66 cm².</p>
+
+        <hr>
+
+        <h2>Tipps</h2>
+        <ul>
+            <li>Immer Skizze machen</li>
+            <li>Höhe steht immer senkrecht</li>
+            <li>Bei Flächen → immer cm²</li>
+            <li>Formel richtig einsetzen</li>
+        </ul>
+
+        <hr>
+
+        <h2>Video</h2>
+        <ul>
+            <li><a href="https://studyflix.de/mathematik/mittelsenkrechte-dreieck-5641">Mittelsenkrechte Dreieck</a></li>
+            <li><a href="https://studyflix.de/mathematik/inkreis-und-umkreis-dreieck-7475">Inkreis und Umkreis Dreieck</a></li>
+            <li><a href="https://studyflix.de/mathematik/hohe-dreieck-berechnen-4759">Höhe Dreieck berechnen</a></li>
+            <li><a href="https://studyflix.de/mathematik/schwerpunkt-dreieck-5642">Schwerpunkt Dreieck</a></li>
+            <li><a href="https://studyflix.de/mathematik/trapez-3945">Trapez</a></li>
+        </ul>
+</body>
+
+</html>

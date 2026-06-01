@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Binomische Formeln</title>
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Start Navigation-->
+        <div class="div_nav_rahmen">
+            <a href="index.html"><img src="bilder/logo.png" width="130" height="100" /></a>
+            <div>
+                <div class="div_nav_oben">
+                    <nav class="nav_oben">
+                        <ul>
+                            <li><a href="1x1.html">1x1</a></li>
+                            <li><a href="quadratzahlen.html">Quadratzahlen</a></li>
+                            <li><a href="masseinheiten.html">Masseinheiten</a></li>
+                            <li><a href="brueche.html">Bruchrechnen</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav_oben">
+                        <ul>
+                            <li><a href="video.html">Video</a></li>
+                            <li><a href="lernen.html">Übungen</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="nav_unten">
+                    <ul>
+                        <li><a href="zehnerpotenzen.html">10 <sup>10</sup></a></li>
+                        <li><a href="kreisberechnungen.html">Kreisberechnung</a></li>
+                        <li><a href="geldgeschäfte.html">Geldgeschäfte</a></li>
+                        <li><a href="binomischeformeln.html">Binomische Formeln</a></li>
+                        <li><a href="pythagoras.html">Satz des Pythagoras</a></li>
+                        <li><a href="dreieckevierecke.html">Dreiecke Vierecke</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Start Seite-->
+        <h1>Binomische Formeln</h1>
+
+        <h2>Erklärung</h2>
+        <p>
+            Die binomischen Formeln sind eine Abkürzung beim Rechnen mit Klammern. Sie zeigen dir, wie das Ergebnis einer Rechnung wie zum Beispiel (a + b)<sup>2</sup> immer nach dem gleichen Muster aufgebaut ist. So musst du nicht jeden Teil einzeln
+            ausmultiplizieren.
+        </p>
+        <p>Die Buchstaben <strong>a</strong> und <strong>b</strong> sind Platzhalter für beliebige Zahlen oder Variablen.</p>
+
+        <hr>
+
+        <h2>Plus-Formel</h2>
+        <p><strong>(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></strong></p>
+
+        <p>Herleitung:</p>
+        <ol>
+            <li>(a + b)<sup>2</sup> = (a + b) &middot; (a + b)</li>
+            <li><img src="bilder/binome1.png" alt="Veranschaulichung 1. Binom"></li>
+            <li>Jeden Teil der ersten Klammer mit jedem der zweiten multiplizieren: <br> a &middot; a + a &middot; b + b &middot; a + b &middot; b</li>
+            <li>Zusammenfassen: a<sup>2</sup> + ab + ab + b<sup>2</sup></li>
+            <li>Endergebnis: <strong>a<sup>2</sup> + 2ab + b<sup>2</sup></strong></li>
+        </ol>
+
+        <hr>
+
+        <h2>Minus-Formel</h2>
+        <p><strong>(a - b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></strong></p>
+
+        <p>Herleitung:</p>
+        <ol>
+            <li>(a - b)<sup>2</sup> = (a - b) &middot; (a - b)</li>
+            <li><img src="bilder/binome2.png" alt="Veranschaulichung 2. Binom"></li>
+            <li>Multiplizieren (auf Vorzeichen achten!): <br> a &middot; a - a &middot; b - b &middot; a + b &middot; b</li>
+            <li>Zusammenfassen: a<sup>2</sup> - ab - ab + b<sup>2</sup></li>
+            <li>Endergebnis: <strong>a<sup>2</sup> - 2ab + b<sup>2</sup></strong></li>
+        </ol>
+
+        <hr>
+
+        <h2>Plus-Minus-Formel</h2>
+        <p><strong>(a + b)(a - b) = a<sup>2</sup> - b<sup>2</sup></strong></p>
+
+        <p>Herleitung:</p>
+        <ol>
+            <li>(a + b) &middot; (a - b)</li>
+            <li><img src="bilder/binome3.png" alt="Veranschaulichung 3. Binom"></li>
+            <li>Multiplizieren: <br> a &middot; a + a &middot; (-b) + b &middot; a + b &middot; (-b)</li>
+            <li>Zusammenfassen: a<sup>2</sup> - ab + ab - b<sup>2</sup></li>
+            <li>Die mittleren Teile heben sich auf (-ab + ab = 0).</li>
+            <li>Endergebnis: <strong>a<sup>2</sup> - b<sup>2</sup></strong></li>
+        </ol>
+
+        <hr>
+
+        <h2>Video</h2>
+        <ul>
+            <li><a href="https://studyflix.de/mathematik/binomische-formeln-2350" target="_blank">Binomische Formeln</a></li>
+            <li><a href="https://studyflix.de/mathematik/2-binomische-formel-2445" target="_blank">Binomische Formeln 2</a></li>
+            <li><a href="https://studyflix.de/mathematik/3-binomische-formel-2446" target="_blank">Binomische Formeln 3</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
